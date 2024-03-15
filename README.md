@@ -4,6 +4,7 @@
 
 ### (Rus) Задача классификации рака груди является важной задачей в области медицинского анализа изображений. Поэтому задачей было использование различных классификаторов, для определения их точности. [Данные взяты из соревнований Kaggle.](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 ### Результат: В результате работы были созданы классификаторы для решение данной задачи и вычислена их точнсоть работы.
+### Стек технологий: seaborn, matplotlib, pandas, numpy, sklearn.linear_model
 #### Краткое описание применения моделей, которые были использованы:
 * Логистическая регрессия - это метод бинарной классификации, который может использоваться для предсказания вероятности того, что опухоль является злокачественной или доброкачественной. Точность - 93%
 * Гребневый классификатор (Ridge Classifier) - это метод регуляризации, который помогает уменьшить переобучение модели путем добавления штрафа за большие значения весов. Точность - 80%
@@ -16,6 +17,7 @@
 
 ### (Eng) The task of breast cancer classification is an important task in the field of medical image analysis. [Data taken from Kaggle competitions.](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 ### Result: As a result of the work, classifiers were created to solve this problem and their accuracy was calculated.
+### Technology stack: seaborn, matplotlib, pandas, numpy, sklearn.linear_model
 #### Brief description of the application of the models that were used:
 * Logistic regression is a binary classification method that can be used to predict the likelihood that a tumor is malignant or benign. Accuracy - 93%
 * Ridge Classifier is a regularization method that helps reduce model overfitting by adding a penalty for large weight values. Accuracy - 80%
